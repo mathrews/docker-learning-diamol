@@ -4,14 +4,14 @@ services:
   todo-db:
     image: diamol/postgres:11.5
     ports:
-      - "5433:5432"
+      - "5434:5432"
     networks:
       - app-net
 
   todo-web:
     image: diamol/ch06-todo-list
     ports:
-      - "8030:80"
+      - "8020:80"
     environment:
       - Database:Provider=Postgres
     depends_on:

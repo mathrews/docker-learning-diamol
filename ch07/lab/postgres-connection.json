@@ -1,5 +1,5 @@
 {
-    "ConnectionStrings": {
-      "ToDoDb": "Server=todo-db;Database=todo;User Id=postgres;Password=postgres;"
+    "connectionstrings": {
+      "tododb": "server=todo-db;database=todo;user id=postgres;password=postgres;"
     }
 }

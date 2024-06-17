@@ -17,7 +17,7 @@ services:
   image-gallery:
     image: diamol/ch04-image-gallery
     ports:
-      - "8010:80" 
+      - "8011:80" 
     depends_on:
       - accesslog
       - iotd

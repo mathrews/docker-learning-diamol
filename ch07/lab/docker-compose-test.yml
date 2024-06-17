@@ -11,7 +11,7 @@ services:
       - PGDATA=/var/lib/postgresql/data
     volumes:
       - type: bind
-        source: /data/postgres
+        source: ./data/postgres
         target: /var/lib/postgresql/data
     networks:
       - app-net
